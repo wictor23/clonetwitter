@@ -1,10 +1,12 @@
 import React from 'react';
+import Layout  from './components/Layout/';
+
 import Globalstyle from './styles/Globalstyle';
 
 function App() {
   return (
     <>
-        <h1>Dinizera</h1>
+        <Layout/>
 
         <Globalstyle/>
     </>
