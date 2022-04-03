@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle `
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -31,7 +31,7 @@ export default createGlobalStyle `
         --outline: #2F3336;
         --retweet: #00C06B;
         --like: #E8265E;
-        --twitter: #E8265E;
+        --twitter: #33A1F2;
         --twitter-dark-hover: #011017;
         --twitter-light-hover: #2C8ED6;
     }
