@@ -32,7 +32,7 @@ export const Header = styled.div `
        outline: 0;
        cursor: pointer;
        &:hover {
-           background: var( --twitter-dark-hover);
+           background: var(--twitter-dark-hover);
        }
     }
 `;
@@ -57,11 +57,25 @@ export const ProfileInfo = styled.div `
     }
     > span {
         font-size: 15px;
-        color: var( --gray)
+        color: var(--gray)
 
     }
 `; 
-export const BottomMenu = styled.div``;
+export const BottomMenu = styled.div`
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+    background: var(--primary);
+    width: 100%;
+    border-top: 1px,solid var(--outline);
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 8px, min(46px, max(10vw, 10px));
+`;
 
 const iconCSS = css `
     width: 31px;
@@ -69,7 +83,7 @@ const iconCSS = css `
 
     cursor: pointer;
 
-    fill: var( --gray);
+    fill: var(--gray);
     &:hover,
     &.active {
         fill :var(--twitter);
