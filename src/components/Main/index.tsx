@@ -20,6 +20,7 @@ const Main: React.FC = () => {
               <HomeIcon />
               <SearchIcon />
               <BellIcon />
+              <EmailIcon/>
               <BottomMenu />
           </BottomMenu> */}
       </Container>
